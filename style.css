@@ -1,0 +1,34 @@
+*{
+
+}
+.index-tempelate .site-logo {
+    filter: grayscale(1) brightness(0);
+}
+.site-header-desktop .site-logo {
+    width: auto;
+    margin: 0 auto 1rem;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+inherited from  div.container
+div {
+    display: block;
+}
+.site-header-desktop-primary>.container {
+    text-align: center;
+    line-height: 0;
+}
+body {
+    font-weight: 300;
+    background-repeat: repeat;
+    background-position: top left;
+    background-image: url(https://images.getbento.com/);
+}
+body {
+    font-family: "Maxx Medium";
+    font-size: 1rem;
+    line height: 1.5;
+    color: #000;
+    background-color: gold;
+}
